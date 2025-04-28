@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(87, 56, 36, 0.6), rgba(87, 56, 36, 0.6)), url(/Assets/cupca.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(9px) brightness(0.9);
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  z-index: 0;
+  background-color: #F0E8C2;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+  .image {
+    text-align: center;
+  }
+
+  .image img {
+    max-width: 100%;
+    border-radius: 10px;
+
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: black;
+  }
+
+  p.info, p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #5c3d2e;
+  }
+
+  h2 {
+    font-size: 21px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color:black;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #5c3d2e;
+    font-size: 14px;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    color:#F0E8C2;
+    font-size: 14px;
+  }
